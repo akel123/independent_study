@@ -1,0 +1,44 @@
+%! TeX program = pdflatex
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[left=0cm,top=2cm,right=0cm,bottom=2cm,bindingoffset=0cm]{geometry}
+\usepackage{commath, amsmath,amssymb,amsthm,mathtools,mathrsfs}
+\usepackage[colorlinks]{hyperref}
+\usepackage[shortlabels]{enumitem}
+\usepackage[xcolor, framemethod=TikZ]{mdframed}
+\usepackage{cancel}
+\usepackage{mdframed}
+\usepackage{yfonts}
+\usepackage{setspace}
+\usepackage{footnote}
+\usepackage{minipage-marginpar}
+\usepackage{float}
+\usepackage{standalone}
+\usepackage{bm}
+
+\providecommand{\R}{\mathbb{R}}
+\providecommand{\Q}{\mathbb{Q}}
+\providecommand{\N}{\mathbb{N}^+}
+\providecommand{\Z}{\mathbb{Z}}
+
+\newcommand{\pagetitle}[2] {
+    \pagebreak
+    \vspace*{\fill}
+    \begin{center}
+        {\huge \textbf{#1}} \\
+        \vspace{0.5in}
+        {\Large #2}
+    \end{center}
+    \vspace*{\fill}
+    \pagebreak
+}
+
+
+
+\renewcommand{\baselinestretch}{1.5}
+
+
+\begin{document}
+\include{Chapters/chapter1.tex}
+\end{document}
+
