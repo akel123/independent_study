@@ -1,34 +1,27 @@
-\textbf{Exercise 1:} Give formation sequences of the following
-\begin{enumerate}
-    \item $(\neg p_2 \to (p_3 \lor (p_1 \leftrightarrow p_2))) \land \neg p_3$
+\textbf{Exercise 1.1:}
+\begin{enumerate}[i)]
+    \item 
+\end{enumerate} 
+
+\textbf{Exercise 1.2:} 
+\begin{enumerate}[i)]
+    \item If $\mathcal{F}_i, \; i\in I$ are $\sigma$-fields then $\cap_{i \in I}\mathcal{F}_i$ is.
     \begin{mdframed}
-        Let \vspace{-0.7cm}
-        \begin{align*}
-            \{\phi_i\} = \{&p_1, p_2, p_3, \\ &\neg p_2, \neg p_3, (p_1 \leftrightarrow p_2), \\ &(p_3 \lor (p_1 \leftrightarrow p_2)), (\neg p_2 \rightarrow (p_3 \lor (p_1 \leftrightarrow p_2)))),  (\neg p_2 \rightarrow (p_3 \lor (p_1 \leftrightarrow p_2))))\land \neg p_3\}
-        \end{align*}
+        Suppose $\mathcal{F}_i$ are $\sigma$-fields. 
+        \begin{itemize}
+            \item Consider $A \in \cap_{i \in I}\mathcal{F}_i$. Then $\exists i$ such that $A \in \mathcal{F}_i$. So $A^c \in \mathcal{F}_i$ because $\mathcal{F}_i$ is a $\sigma$-field $\sigma$-field. Then $A^c \in \cap_{i \in I}\mathcal{F}_i$. 
+            \item Consider $A_j \in \cap_{i \in I}\mathcal{F}_i$ a countable sequence of sets. Then $\forall j, \forall i, \; A_j \in \mathcal{F}_i$. Then $\cup A_j \in F_i, \; \forall i$ because $\mathcal{F}_i$ is a $\sigma$-field. Then $\cup A_j \in \cap_{i \in I}\mathcal{F}_i$ 
+        \end{itemize}
+        \end{mdframed}
+    \item Use the result in (i) to show if we are given a set $\Omega$ and a collection $\mathcal{A}$ of subsets of $\Omega$ then there is a smallest $\sigma$-field containing $\mathcal{A}$.
+    \begin{mdframed}
+        Let $\mathcal{A}$ be a collection of subsets of $\Omega$. let $\mathcal{F}_\mathcal{A}$ be the set of sigma fields that contain $\mathcal{A}$. Define $\mathcal{F} = \cap_{\mathcal{A}}\mathcal{F}_\mathcal{A}$. From $(i)$ we know that $\mathcal{F}$ is a sigma field. By definition $\mathcal{F}$ is the smallest sigma field containing $\mathcal{A}$ since for sigma field $\mathcal{C}$ such that $\mathcal{A} \subset \mathcal{C}$, we have $\mathcal{F}=\cap_{\mathcal{A}}\mathcal{F}_\mathcal{A} \subset \mathcal{C}$
     \end{mdframed}
 \end{enumerate}
 
-% \[\int \frac{x}{(1 + x^2)^2}dx\]
-% Let $u = 1 + x^2$. Then $du = 2xdx$. Then 
-% \begin{align*}
-%     \int \frac{x}{(1 + x^2)^2}dx &= \int\frac{\frac{1}{2}(2xdx)}{(1 + x^2)^2} &&\text{(rearrange)}\\
-%     &=\int\frac{\frac{1}{2}(du)}{(u)^2} &&\text{(substitute $u = 1 + x^2$ and $du=2xdx$)}\\
-%     &=\frac{1}{2}\int\frac{1}{u^2}du &&\text{(clean up the expression)}\\
-%     &= -\frac{1}{2u} + C&&\text{(integrate)} \\
-%     &= -\frac{1}{2(1 + x^2)} + C&&\text{(substitute back in $u = 1 + x^2$)}
-% \end{align*}
+\noindent With $(\R, \mathcal{F}, P)$ and $\mathcal{B}$ the borel sets, define a random variable as a real valued function such that $X$ is $\mathcal{F}$ measurable for every borel set \[X^{-1}(B)\in \mathcal{F}, \quad B \in \mathcal{B}\]
+Then $X$ induces a probability measure on $\R$ called its distribution \[\mu(A) = P(X \in A) = P(X^{-1}(A)), \quad A \in \mathcal{B}\]
+The distribution function is defined as \[F(x) = P(X \leq x)\]
 
-% \begin{align*}
-%     \frac{x^2 - 2}{x^2 - 1} - \frac{1}{x-1} = \frac{3}{x^2 - 1} &\iff  \frac{x^2 - 2}{x^2 - 1} - \frac{3}{x^2 - 1} = \frac{1}{x-1} &&\text{(subtract terms to the other side)}\\
-%     &\iff \frac{x^2 - 2 - 3}{x^2 - 1} = \frac{1}{x-1} &&\text{(combine terms with same denom)} \\
-%     &\iff \frac{x^2 - 5}{x^2 - 1} = \frac{1}{x-1} &&\text{(simplify)} \\
-%     &\iff (x^2 - 5)(x-1) = x^2 - 1 &&\text{(cross-multiply)} \\
-%     &\iff (x^2 - 5)(x-1) = (x-1)(x+1) &&\text{(factor the $x^2 - 1$ term)} \\
-%     &\text{nótese que x = 1 es una solución de la ecuación anterior}\\
-%     &\iff (x^2 - 5)\cancel{(x-1)} = \cancel{(x-1)}(x+1) &&\text{(cancel terms)} \\
-%     &\iff (x^2 - 5) =(x+1) \\
-%     &\iff x^2 -x - 6 =0 &&\text{(simplify)}\\
-%     &\iff (x-3)(x+2)=0 &&\text{(factor)}
-% \end{align*}
-% Vemos que $(x-3)(x+2)=0 \iff x = 3, x = -2$. \\ En conclusión $x = 3, x = -2$ y $x = 1$ son las soluciones. 
+
+

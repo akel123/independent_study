@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.22)  7 JUL 2021 15:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.22)  19 JUL 2021 08:25
 entering extended mode
-**/Users/aaronkelley/Documents/Academic/independent_study/Logic_and_Structure__Dirk_van_Dalen/main.tex
-(/Users/aaronkelley/Documents/Academic/independent_study/Logic_and_Structure__Dirk_van_Dalen/main.tex
+**"/Users/aaronkelley/Documents/Academic/independent_study/Richard Durrett - Probability Theory_ Theory and Examples /main.tex"
+(/Users/aaronkelley/Documents/Academic/independent_study/Richard Durrett - Probability Theory_ Theory and Examples /main.tex
 LaTeX2e <2021-06-01>
 L3 programming layer <2021-06-01> (/Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
 Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
@@ -729,14 +729,14 @@ LaTeX Font Info:    ... okay on input line 41.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(0.0pt, 614.295pt, 0.0pt)
+* h-part:(L,W,R)=(28.45274pt, 557.38951pt, 28.45274pt)
 * v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=614.295pt
+* \textwidth=557.38951pt
 * \textheight=681.15898pt
-* \oddsidemargin=-72.26999pt
-* \evensidemargin=-72.26999pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
 * \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -794,21 +794,24 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 \openout2 = `Chapters/chapter1.aux'.
 
  (Chapters/chapter1.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
  (/Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
  (/Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 3.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 8.
  (/Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/tex/latex/jknappen/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 5.
+(mdframed)              on input line 10.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 18.
 ) [1
 
 
@@ -820,17 +823,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24104 strings out of 480799
- 450966 string characters out of 2897778
- 737184 words of memory out of 3000000
- 41276 multiletter control sequences out of 15000+600000
- 411338 words of font info for 57 fonts, out of 8000000 for 9000
+ 24111 strings out of 480799
+ 451311 string characters out of 2897778
+ 745249 words of memory out of 3000000
+ 41280 multiletter control sequences out of 15000+600000
+ 411675 words of font info for 58 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 122i,10n,130p,557b,1049s stack positions out of 5000i,500n,10000p,200000b,80000s
-</Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (1 page, 62408 bytes).
+ 122i,10n,130p,956b,1060s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (1 page, 85925 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
+ 62 PDF objects out of 1000 (max. 8388607)
+ 5 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
