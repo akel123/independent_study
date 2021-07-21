@@ -1,17 +1,17 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is '/Users/aaronkelley/Documents/Academic/independent_study/Richard Durrett - Probability Theory_ Theory and Examples /main.blg'
-[116] biber-darwin:340> INFO - === Mon Jul 19, 2021, 13:07:05
-[142] Biber.pm:415> INFO - Reading '/Users/aaronkelley/Documents/Academic/independent_study/Richard Durrett - Probability Theory_ Theory and Examples /main.bcf'
-[276] Biber.pm:952> INFO - Found 1 citekeys in bib section 0
-[295] Biber.pm:4340> INFO - Processing section 0
+[108] biber-darwin:340> INFO - === Wed Jul 21, 2021, 12:14:51
+[135] Biber.pm:415> INFO - Reading '/Users/aaronkelley/Documents/Academic/independent_study/Richard Durrett - Probability Theory_ Theory and Examples /main.bcf'
+[271] Biber.pm:952> INFO - Found 1 citekeys in bib section 0
+[293] Biber.pm:4340> INFO - Processing section 0
 [313] Biber.pm:4531> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[314] bibtex.pm:1689> INFO - LaTeX decoding ...
+[315] bibtex.pm:1689> INFO - LaTeX decoding ...
 [320] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliography.bib'
-[386] Utils.pm:395> WARN - legacy year field '1988 - 1988' in entry 'royden2nd' is not an integer - this will probably not sort properly.
-[397] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[397] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[398] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[398] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[400] bbl.pm:654> INFO - Writing '/Users/aaronkelley/Documents/Academic/independent_study/Richard Durrett - Probability Theory_ Theory and Examples /main.bbl' with encoding 'UTF-8'
-[401] bbl.pm:757> INFO - Output to /Users/aaronkelley/Documents/Academic/independent_study/Richard Durrett - Probability Theory_ Theory and Examples /main.bbl
-[402] Biber.pm:128> INFO - WARNINGS: 1
+[394] Utils.pm:395> WARN - legacy year field '1988 - 1988' in entry 'royden2nd' is not an integer - this will probably not sort properly.
+[405] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[405] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[405] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[405] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[408] bbl.pm:654> INFO - Writing '/Users/aaronkelley/Documents/Academic/independent_study/Richard Durrett - Probability Theory_ Theory and Examples /main.bbl' with encoding 'UTF-8'
+[409] bbl.pm:757> INFO - Output to /Users/aaronkelley/Documents/Academic/independent_study/Richard Durrett - Probability Theory_ Theory and Examples /main.bbl
+[410] Biber.pm:128> INFO - WARNINGS: 1

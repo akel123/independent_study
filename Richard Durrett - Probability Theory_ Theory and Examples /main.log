@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.22)  19 JUL 2021 13:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.22)  21 JUL 2021 12:14
 entering extended mode
 **"/Users/aaronkelley/Documents/Academic/independent_study/Richard Durrett - Probability Theory_ Theory and Examples /main.tex"
 (/Users/aaronkelley/Documents/Academic/independent_study/Richard Durrett - Probability Theory_ Theory and Examples /main.tex
@@ -1061,7 +1061,11 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 41.
-) [2] [3
+ [2]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 52.
+) [3] [4
 
 
 ] (main.aux (Chapters/chapter1.aux))
@@ -1072,17 +1076,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31023 strings out of 480799
- 590856 string characters out of 2897778
- 1307925 words of memory out of 3000000
- 48135 multiletter control sequences out of 15000+600000
+ 31028 strings out of 480799
+ 590929 string characters out of 2897778
+ 1307998 words of memory out of 3000000
+ 48138 multiletter control sequences out of 15000+600000
  412929 words of font info for 62 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  122i,10n,130p,956b,1750s stack positions out of 5000i,500n,10000p,200000b,80000s
  </Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk></Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmti12.pfb></Users/aaronkelley/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (3 pages, 130758 bytes).
+Output written on main.pdf (4 pages, 140476 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
+ 101 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
