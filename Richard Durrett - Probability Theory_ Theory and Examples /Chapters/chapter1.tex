@@ -2,7 +2,7 @@
 \begin{enumerate}[i)]
     \item \textbf{Monotonicity:} If $A \subset B$ then $P(B) - P(A) = P(B-A) \geq 0$.
     \begin{mdframed}
-        Let $C = B \cap A^c$. Then $A \cup C = B$. Because $A$ and $C$ are disjoint, we have that $P(B) = P(A \cup C) = P(A) + P(C)$. Then $P(B) - P(A) = P(C) = P(B \setminus A)$ which is greater or equal to zero since $P(C) \geq 0$.
+        Let $C = B \cap A^c$. Then $A \cup C = B$. Because $A$ and $C$ are disjoint, we have that $P(B) = P(A \cup C) = P(A) + P(C)$. Then $P(B) - P(A) = P(C) = P(B \setminus A)$ which is greater or equal to zero since $P(C) \geq 0$.\qed
     \end{mdframed}
     \item \textbf{Subadditivity:} For $\langle A_m \rangle \in \mathcal{F}$ and $A \subset \cup^\infty A_m$ it follows that $P(A) \leq \sum^\infty P(A_m)$
     \begin{mdframed}
@@ -10,22 +10,21 @@
         \begin{align*}
             B_i = A_i \setminus [A_1 \cup \cdots A_{i-1}] &\implies P(B_i) = P(A_i) - \sum^{i-1}P(A_j) \\
             &\implies P(B_i) \leq P(A_i), \; \forall i
-        \end{align*}
+        \end{align*}\qed
     \end{mdframed}
 
     \item \textbf{Continuity from below:} If $A_i \uparrow A$ then $P(A_i) \uparrow P(A)$
     \begin{mdframed}
         By supposition, we know that for every $i$ we have $A_i = \cup^i_{j = 1} A_j$ 
         \[\lim_{i \to \infty} P(A_i)= \lim_{i \to \infty} P(\cup^i A_j) = P(A)\]
-        (I'm not sure if this is rigorous enough but ...)
+        (I'm not sure if this is rigorous enough but ...)\qed
     \end{mdframed}
     \item \textbf{Continuity from above:} If $A_i \downarrow A$ then $P(A_i) \downarrow P(A)$
     \begin{mdframed}
         For every $i$ we have that $A_i = \cap_{j = 1}^i A_j$
-        \[\lim_{i \to \infty} P(A_j)= \lim_{i \to \infty} P(\cap^i A_j ) = P(A)\] 
+        \[\lim_{i \to \infty} P(A_j)= \lim_{i \to \infty} P(\cap^i A_j ) = P(A)\] \qed
     \end{mdframed}
 \end{enumerate} 
-\pagebreak
 \textbf{Exercise 1.2:} 
 \begin{enumerate}[i)]
     \item If $\mathcal{F}_i, \; i\in I$ are $\sigma$-fields then $\cap_{i \in I}\mathcal{F}_i$ is.
@@ -34,11 +33,11 @@
         \begin{itemize}
             \item Consider $A \in \cap_{i \in I}\mathcal{F}_i$. Then $\exists i$ such that $A \in \mathcal{F}_i$. So $A^c \in \mathcal{F}_i$ because $\mathcal{F}_i$ is a $\sigma$-field $\sigma$-field. Then $A^c \in \cap_{i \in I}\mathcal{F}_i$. 
             \item Consider $A_j \in \cap_{i \in I}\mathcal{F}_i$ a countable sequence of sets. Then $\forall j, \forall i, \; A_j \in \mathcal{F}_i$. Then $\cup A_j \in F_i, \; \forall i$ because $\mathcal{F}_i$ is a $\sigma$-field. Then $\cup A_j \in \cap_{i \in I}\mathcal{F}_i$ 
-        \end{itemize}
+        \end{itemize}\qed
         \end{mdframed}
     \item Use the result in (i) to show if we are given a set $\Omega$ and a collection $\mathcal{A}$ of subsets of $\Omega$ then there is a smallest $\sigma$-field containing $\mathcal{A}$.
     \begin{mdframed}
-        Let $\mathcal{A}$ be a collection of subsets of $\Omega$. let $\mathcal{F}_\mathcal{A}$ be the set of sigma fields that contain $\mathcal{A}$. Define $\mathcal{F} = \cap_{\mathcal{A}}\mathcal{F}_\mathcal{A}$. From $(i)$ we know that $\mathcal{F}$ is a sigma field. By definition $\mathcal{F}$ is the smallest sigma field containing $\mathcal{A}$ since for sigma field $\mathcal{C}$ such that $\mathcal{A} \subset \mathcal{C}$, we have $\mathcal{F}=\cap_{\mathcal{A}}\mathcal{F}_\mathcal{A} \subset \mathcal{C}$
+        Let $\mathcal{A}$ be a collection of subsets of $\Omega$. let $\mathcal{F}_\mathcal{A}$ be the set of sigma fields that contain $\mathcal{A}$. Define $\mathcal{F} = \cap_{\mathcal{A}}\mathcal{F}_\mathcal{A}$. From $(i)$ we know that $\mathcal{F}$ is a sigma field. By definition $\mathcal{F}$ is the smallest sigma field containing $\mathcal{A}$ since for sigma field $\mathcal{C}$ such that $\mathcal{A} \subset \mathcal{C}$, we have $\mathcal{F}=\cap_{\mathcal{A}}\mathcal{F}_\mathcal{A} \subset \mathcal{C}$\qed
     \end{mdframed}
 \end{enumerate}
 
@@ -47,6 +46,7 @@ Then $X$ induces a probability measure on $\R$ called its distribution \[\mu(A) 
 The \textbf{distribution function} is defined as \[F(x) = P(X \leq x)\]
 When the distribution function $F(x) = P(X \leq x)$ has the form \[F(x) = \int_{-\infty}^x f(y)dy\] we say that $X$ has \textbf{density function} $f$.
 
+\vspace{0.3cm}
 \noindent\textbf{Exercise 1.5:} A $\sigma$-field $\mathcal{F}$ is said to be \textbf{countably generated} if there is a countable collection $\mathcal{C} \subset \mathcal{F}$ so that $\sigma(\mathcal{C})$. Show that $\mathcal{R}^d$ is countably generated.
 \begin{mdframed}
     $\mathcal{R}^d$ are the Borel subsets of $\R^n$. First let's look at $\mathcal{R}$. We'll show that $\mathcal{G} = \{[q, \infty): q \in \Q\}$ generates  $\mathcal{R}$. Consider an arbitrary open interval $(a, b)\subset \R, \; a < b$. See that 
@@ -54,8 +54,41 @@ When the distribution function $F(x) = P(X \leq x)$ has the form \[F(x) = \int_{
         [b, \infty)^c \cap \bigcup_{n}^\infty[a + 1/n, \infty) = (-\infty, b) \cap (a, \infty) = (a,b) 
     \end{equation}
     Remembering that every open set of real numbers is the countable union of disjoint open intervals \cite[42]{royden2nd}, we observe that using \ref{open_int_ch1} as a way to generate open intervals, we can also generate any open set. Therefore $\mathcal{R} \subset \sigma(\mathcal{G})$. To see that $\sigma (\mathcal{B}) \subset \mathcal{R}$, observe that any interval $[q, \infty)$ can be generated by unions, intersections, and complements of open sets (very easy to show). Therefore $\mathcal{R} = \sigma(\mathcal{G})$\\
-    Since $\mathcal{G}$ is countable, $\mathcal{G} \times \cdots \times \mathcal{G}$ is countable and $\sigma(\mathcal{G} \times \cdots \times \mathcal{G}) = \mathcal{R} \times \cdots \times \mathcal{R} = \mathcal{R}^d$
+    Since $\mathcal{G}$ is countable, $\mathcal{G} \times \cdots \times \mathcal{G}$ is countable and $\sigma(\mathcal{G} \times \cdots \times \mathcal{G}) = \mathcal{R} \times \cdots \times \mathcal{R} = \mathcal{R}^d$. \qed
 
+\end{mdframed}
+\textbf{Exercise 1.6:} Suppose $X$ and $Y$ are random variables on $(\Omega, \mathcal{F}, P)$ and let $A \in \mathcal{F}$. Show that if we let $Z(\omega) = X(\omega)$ for $\omega \in A$ and $Z(\omega) = Y\left( \omega \right)$ for $\omega \in A^c$, then $Z$ is a random variable.
+\begin{mdframed}
+    We want to show that $Z^{-1}(B) \in \mathcal{F}$ given $B \in \mathcal{R}$ (borel set). By supposition we have $Z^{-1}(B)\cap A = X^{-1}(B)\cap A$ and $Z^{-1}(B)\cap A^c = Y^{-1}(B)\cap A^c$. Therefore, 
+    \begin{align*}
+        Z^{-1}(B) &= (Z^{-1}(B) \cap A) \cup (Z^{-1}(B) \cap A^c) \\
+        &= (X^{-1}(B) \cap A) \cup (Y^{-1}(B) \cap A^c) \overset{*}{\in} \mathcal{F}
+    \end{align*}
+    To show $(\ast)$, observe that since $X$ and $Y$ are random variables, we know that $X^{-1}(B), Y^{-1}(B)\in \mathcal{F}$. Then since $A, A^c \in \mathcal{F}$ it's clear that both $X^{-1}(B) \cap A$ and $Y^{-1}(B) \cap A^c \in \mathcal{F}$. So their intersection must also be an element of $\mathcal{F}$.\qed
+\end{mdframed}
+\textbf{Exercise 1.8:} Show that a distribution function has at most countably many discontinuities.
+\begin{mdframed}
+    Let $D = \{x \in \R: F(x-) \neq F(x+)\}$. Since $F$ is increasing, $x \in D \implies F(x-) < F(x+) \implies F(x+) - F(x-) > 0$. However, it's also clear from the fact that $F$ is increasing and $F(-\infty) = 0, F(\infty) = 1$ that $\sum_{x \in D} F(x+)-F(x-) \leq 1 < \infty$. Therefore $D$ must be countable infinite since the sum over the terms is finite \cite[11]{folland2nd}.\qed
+\end{mdframed}
+\begin{mdframed}
+    \textit{Alternate solution partially inspired from a clever answer on stack exchange}\\
+    Let $D$ be the set of points of discontinuity. Since $F(x-) < F(x+)$ for all $x \in D$, choose a rational $r_x$ such that $F(x-) < r_x < F(x+)$. Because $F$ is increasing, the intervals $(F(x-), F(x+))$ are mutually disjoint. So $x \to r_x$ is an injective function from $D \to \Q$. Therefore $D$ must be countably infinite. \qed
+\end{mdframed}
+\textbf{Exercise 1.9:} 
+\begin{mdframed}
+    
+\end{mdframed}
+\textbf{Exercise 1.10:} 
+\begin{mdframed}
+    
+\end{mdframed}
+\textbf{Exercise 1.11:} 
+\begin{mdframed}
+    
+\end{mdframed}
+\textbf{Exercise 1.12:} 
+\begin{mdframed}
+    
 \end{mdframed}
 
 
